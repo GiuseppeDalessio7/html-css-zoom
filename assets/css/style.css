@@ -11,31 +11,12 @@ body {
 }
 
 :root {
-    --zm-header: {
-        color: #000101
-    }
-
-    --zm-sharescreen: {
-        color: #000101;
-    }
-
-    --zm-icon : {
-        color: #fefffe;
-    }
-
-    --zm-danger: {
-        color: #f80a11;
-    }
-
-    --zm-footer: {
-        color: #4a4a4a;
-    }
-
-    --zm-speaker: {
-        color: #232223
-    }
+    --zoom-black: #222222;
+    --zoom-dark: #4a4b4b;
+    --zoom-danger: #ec1430;
+    --zoom-share: green;
+    --zoom-white: white;
 }
-
 
 /* .debug{
     width: 100%;
@@ -48,7 +29,7 @@ body {
 
 
 .site_header {
-    width: 100vw;
+    width: 98vw;
     height: 70px;
     margin: 0 auto;
     background-color: #000101;
@@ -66,7 +47,6 @@ body {
     width: 130px;
     height: 20px;
     padding-top: 1rem;
-    padding-right: 0.1rem;
 }
 
 .right_menu>span {
@@ -120,12 +100,12 @@ footer {position: sticky;
 
 .site_footer {
     width: 100vw;
-    height: 90px;
+    height: 85px;
     background-color: #232223;
     padding: 1rem ;
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 
